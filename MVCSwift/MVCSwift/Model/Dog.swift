@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class Dog {
+    var name: String?
+    var legs: Int?
+}
