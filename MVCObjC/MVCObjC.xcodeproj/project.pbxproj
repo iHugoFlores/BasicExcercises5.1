@@ -14,6 +14,7 @@
 		3A40886424337AC000A70A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A40886324337AC000A70A2B /* Assets.xcassets */; };
 		3A40886724337AC000A70A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A40886524337AC000A70A2B /* LaunchScreen.storyboard */; };
 		3A40886A24337AC000A70A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A40886924337AC000A70A2B /* main.m */; };
+		3A40887424337AFC00A70A2B /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A40887324337AFC00A70A2B /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3A40886624337AC000A70A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A40886824337AC000A70A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A40886924337AC000A70A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A40887324337AFC00A70A2B /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		3A40887524337B0B00A70A2B /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +64,45 @@
 		3A40885624337ABE00A70A2B /* MVCObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3A40887224337ACE00A70A2B /* Controller */,
+				3A40887124337ACA00A70A2B /* View */,
+				3A40887024337AC500A70A2B /* Model */,
 				3A40885724337ABE00A70A2B /* AppDelegate.h */,
 				3A40885824337ABE00A70A2B /* AppDelegate.m */,
 				3A40885A24337ABE00A70A2B /* SceneDelegate.h */,
 				3A40885B24337ABE00A70A2B /* SceneDelegate.m */,
-				3A40885D24337ABE00A70A2B /* ViewController.h */,
-				3A40885E24337ABE00A70A2B /* ViewController.m */,
-				3A40886024337ABE00A70A2B /* Main.storyboard */,
 				3A40886324337AC000A70A2B /* Assets.xcassets */,
 				3A40886524337AC000A70A2B /* LaunchScreen.storyboard */,
 				3A40886824337AC000A70A2B /* Info.plist */,
 				3A40886924337AC000A70A2B /* main.m */,
+				3A40885D24337ABE00A70A2B /* ViewController.h */,
+				3A40885E24337ABE00A70A2B /* ViewController.m */,
+				3A40886024337ABE00A70A2B /* Main.storyboard */,
+				3A40887324337AFC00A70A2B /* Dog.m */,
+				3A40887524337B0B00A70A2B /* Dog.h */,
 			);
 			path = MVCObjC;
+			sourceTree = "<group>";
+		};
+		3A40887024337AC500A70A2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A40887124337ACA00A70A2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A40887224337ACE00A70A2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +177,7 @@
 			files = (
 				3A40885F24337ABE00A70A2B /* ViewController.m in Sources */,
 				3A40885924337ABE00A70A2B /* AppDelegate.m in Sources */,
+				3A40887424337AFC00A70A2B /* Dog.m in Sources */,
 				3A40886A24337AC000A70A2B /* main.m in Sources */,
 				3A40885C24337ABE00A70A2B /* SceneDelegate.m in Sources */,
 			);
